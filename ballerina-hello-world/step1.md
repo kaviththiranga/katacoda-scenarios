@@ -3,7 +3,7 @@ This program will simply print the given message to standard out.
 Copy the Hello World example into the editor. Once copied, file will be automatically saved.
 
 
-<pre class="file" data-target="app.bal" data-target="replace">
+<pre class="file" data-filename="app.bal" data-target="replace">
 import ballerina/io;
 
 public function main() {
