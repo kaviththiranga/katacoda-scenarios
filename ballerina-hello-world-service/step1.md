@@ -37,4 +37,4 @@ Do a curl to the service from another terminal.
 
 Kill the service running in first terminal.
 
-echo "Send Ctrl+C to terminal running the service" {{execute interrupt T1}}
+`echo "Stopped the service"`{{execute interrupt T1}}
