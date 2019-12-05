@@ -22,13 +22,19 @@ service hello on new http:Listener(9090) {
 ## start the service
 
  - run with `ballerina run app.bal`{{execute T1}} or
+  
  - create jar `ballerina build app.bal`{{execute T1}} & run with `java -jar app.jar`{{execute T1}}
 
+This will start the service in current terminal.
 
 ## invoke the service using curl
+
+Do a curl to the service from another terminal.
 
  - curl service `curl http://localhost:9090/hello/sayHello`{{execute T2}}
 
 ## stop the service
 
-`echo "Send Ctrl+C to terminal running the service"`{{execute interrupt T1}}
+Kill the service running in first terminal.
+
+echo "Send Ctrl+C to terminal running the service" {{execute interrupt T1}}
