@@ -18,6 +18,7 @@
       "text": "finish.md"
     }
   },
+  "files": ["app.bal"],
   "environment": {
     "uilayout": "editor-terminal"
   },
