@@ -1,5 +1,6 @@
-A public function named main is considered as an entry point to a Ballerina program.
-This program will simply print the given message to standard out.
+A public function named ```main``` is considered as an entry point to a Ballerina program.
+
+Below program will simply print the given message to standard out.
 
 Copy the Hello World example into the editor. Once copied, file will be automatically saved.
 

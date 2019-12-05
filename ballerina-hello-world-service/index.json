@@ -1,0 +1,30 @@
+{
+  "title": "Hello world service with Ballerina",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "10mins",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "setup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": ["app.bal"],
+  "environment": {
+    "hideintro": false,
+    "hidefinish": true,
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "java8"
+  }
+}
