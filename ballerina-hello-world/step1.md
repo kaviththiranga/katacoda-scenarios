@@ -1,13 +1,13 @@
+A public function named main is considered as an entry point to a Ballerina program.
 This program will simply print the given message to standard out.
 
 Copy the Hello World example into the editor. Once copied, file will be automatically saved.
-
 
 <pre class="file" data-filename="app.bal" data-target="replace">
 import ballerina/io;
 
 public function main() {
-    io:println("Hello Ballerina!");
+    io:println("Hello World!");
 }
 </pre>
 
